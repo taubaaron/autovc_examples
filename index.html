@@ -2,3 +2,129 @@
     <source src='/Users/aarontaub/Desktop/Autovc_Examples/m2_s5_speech.wav' type='audio/wav'>
     Your browser does not support the audio tag.
 </audio>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Speech2Sing: A Zero-Shot Many-to-Many Speech to Sing Neural Network</title>
+    <!-- <link rel="stylesheet" type="text/css" href="../../css/blog-web.css" media="all"> -->
+    <!-- <head> -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <style type="text/css">
+        audio { width: 200px; }
+        html {
+            position: relative;
+            min-width: 1024px;
+            min-height: 768px;
+            height: 100%;
+        }
+    </style>
+    <!-- </head> -->
+</head>
+<body>
+<center>
+    <div id="blog-wrapper">
+        <div id="blog-content">
+            <h2>Audio Examples of paper: Speech2Sing: A Zero-Shot Many-to-Many Speech to Sing Neural Network</h2>
+            <h3>Amit Eliav, Aaron Taub</h3>
+            <h3>prof. Sharon Ganot, Renana Opochinsky</h3>
+            <h3>Engineering Faculty, Bar-Ilan University, Israel</h3>
+</center>
+
+
+
+<h4>Examples created using our neural network. Trained on the NHSS[2] dataset. </h4>
+
+<table>
+
+    <tr>
+        <td width="165px" style="padding-bottom: 40px;"></td>
+        <td width="150px"><b>Content</b></td>
+        <td width="150px"><b>Style</b></td>
+        <td width="150px"><b>Converted</b></td>
+
+
+    </tr>
+    <tr>
+        <td><b>Male to Male Example</b></td>
+        <td>
+            <audio controls preload="none" >
+                <source src="sample_audio/Hallelujah.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+        </td>
+
+        <td>
+            <audio controls preload="none">
+                <source src='sample_audio/m2_s5_speech.wav' type='audio/wav'>
+                Your browser does not support the audio element.
+            </audio>
+        </td>
+        <td>
+            <audio controls preload="none">
+                <source src="sample_audio/halleluya-combined_target_M02.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+        </td>
+    </tr>
+
+</table>
+
+<table>
+
+    <tr>
+        <td width="165px" style="padding-bottom: 40px;"></td>
+        <td width="150px"><b>Content</b></td>
+        <td width="150px"><b>Style</b></td>
+        <td width="150px"><b>Converted</b></td>
+
+    </tr>
+    <tr>
+        <td><b>Male to Female Example</b></td>
+        <td>
+            <audio controls preload="none" >
+                <source src="sample_audio/M1_S01_short_song_2.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+        </td>
+
+        <td>
+            <audio controls preload="none">
+                <source src="sample_audio/F1_Song_03_speech_2.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+        </td>
+        <td>
+            <audio controls preload="none">
+                <source src="sample_audio/singer_M01_song_M01_S01_short_Song_2_target_F01.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+        </td>
+    </tr>
+
+</table>
+
+
+<p>[1] Eliav, Taub, et al. "Speech to Sing: A Zero-Shot Many-to-Many Speech to Sing Neural Network" 2022 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference. IEEE, 2022.</p>
+<p>[2] Bidisha Sharma, Xiaoxue Gao, Karthika Vijayan, Xiaohai Tian, and Haizhou Li. "NHSS: A Speech and Singing Parallel Database." arXiv preprint arXiv:2012.00337 (2020).</p>
+
+</div>
+
+<div id="blog-bg-footer">
+    <div id="blog-footer">
+        <p>
+            Last updated:&nbsp;
+            <script language="JavaScript">
+                document.write(String(document.lastModified))</script>
+        </p>
+    </div>
+</div>
+</div>
+</body>
+
